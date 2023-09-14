@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu{
+background-image: url("../imagens/imglogin.jpg");
+height: 100vh;
+text-align: center;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+.cbl{
+    padding: 30px 15px ;
+}
+
+.form{
+ background-color: rgba(25, 24, 43, 0.76);
+ border-radius: 39px;
+ text-align: center;
+ align-items: center;
+ width: 490px;
+ height: 624px;
+ display: flex;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+    margin: 0px auto 0;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.container-radio{
+    display: flex;
+}
+
+.container-radio div{
+    padding: 10px;
+}
+
+form label{
+    color: #6e5fa3;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+form input{
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+form input[type='file']{
+    color: #FFFFFF;
+}
+
+form input::file-selector-button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+form input:focus{
+    border: 3px solid #6e5fa3;
+    outline: none;
+}
+ .botao-cadastrar {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    border: none;
+    transition: 0.5s;
+    color: #fff;
+    background: rgb(61, 59, 102);
+    width: 50%;
+    margin: 30px auto 0;
+  }
+  .botao-cadastrar:hover {
+    background:  rgba(25, 24, 43, 1);
+  }
+ 
