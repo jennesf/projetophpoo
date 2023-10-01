@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+a:link{
+   color:rgba(25, 24, 43, 1)
+}
 
 .menu{
 background-image: url("../imagens/imglogin.jpg");
@@ -21,15 +24,15 @@ display: flex;
  border-radius: 39px;
  text-align: center;
  align-items: center;
- width: 490px;
- height: 624px;
+ width: 400px;
+ height: 500px;
  display: flex;
 }
 
 form{
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 75%;
     text-align: center;
     margin: 0px auto 0;
 }
@@ -37,6 +40,8 @@ form{
 .form{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    
 }
 
 .container-radio{
@@ -50,7 +55,8 @@ form{
 form label{
     color: #6e5fa3;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin: 20px auto 0;
+    font-size: 22px;
 }
 form input{
     border-radius: 10px;
@@ -69,10 +75,10 @@ form input::file-selector-button{
     border: none;
 }
 
-
 form input:focus{
-    border: 3px solid #6e5fa3;
+    border: 3px solid #1b123b;
     outline: none;
+    background-color: rgba(36, 35, 66, 0.76);
 }
  .botao-cadastrar {
     font-family: "Raleway", sans-serif;
@@ -93,4 +99,31 @@ form input:focus{
   .botao-cadastrar:hover {
     background:  rgba(25, 24, 43, 1);
   }
- 
+
+  .botao-cadastro {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    border: none;
+    transition: 0.5s;
+    color: #fff;
+    background: rgb(61, 59, 102);
+    width: 80%;
+    margin: 30px auto 0;
+  }
+  .botao-cadastro:hover {
+    background:  rgba(25, 24, 43, 1);
+  }
+.meio{
+    align-items: center;
+    image-rendering: auto;
+}
+  img{
+    border-image: 59px;
+    width: 100%;
+  }
